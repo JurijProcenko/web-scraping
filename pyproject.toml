@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scraping"
+version = "0.1.0"
+description = ""
+authors = ["Yurii Protsenko <elsoul@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.7"
+bs4 = "^0.0.2"
+lxml = "^5.1.0"
+requests = "^2.31.0"
+Scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
